@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1 class="heading">Dynamic Resume Builder</h1>
+      <form action="" id="form-element" class="form-ele">
+
+                         <!-- personal section -->
+        <div class="per-sec">
+          <h1 class="head">Personal Information</h1>
+
+          <label class="nam" for="info1">Name:</label><br />
+          <input class="nam-input" type="text" id="info1" placeholder="Write your name...." required/> <br/><br/>
+
+          <label class="ema" for="info2">Email:</label><br />
+          <input class="ema-input" type="text" id="info2" placeholder="Enter your Email...." required/> <br /><br />
+
+          <label class="con" for="info3">Contact no:</label><br />
+          <input class="con-input" type="text" id="info3" placeholder="Enter your Phone number...." required /><br /><br />
+
+          <label class="lin" for="link">Enter you Linkdin account</label><br />
+          <input class="lin-input" type="url" id="link" placeholder="Linkdin account URL..." required /><br />
+        </div>
+
+                        <!-- education section -->
+        <div class="sec">
+          <h1 class="head">Education</h1>
+          <label class="educ" for="edu">Education:</label><br />
+          <!-- <textarea class="educ-input" placeholder="Enter your Education" type="text" rows="4" id="edu"> </textarea -->
+          <textarea id="edu" placeholder="Enter your Education" class="educ-input" rows="4" required></textarea>
+
+          ><br />
+        </div>
+                         <!-- experience section -->
+        <div class="sec">
+          <h1 class="head-exp">Experience</h1>
+          <label class="exp1" for="exp">Experience:</label><br />
+          <!-- <textarea id="exp" placeholder="Enter your experience" class="educ-input" type="text" rows="4"> </textarea> <br /> -->
+          <textarea id="exp" placeholder="Enter your Experience" class="educ-input" rows="4" required></textarea>
+
+        </div>
+
+                        <!-- skill section  -->
+        <div class="sec">
+          <h1 class="head-skills">Skills</h1>
+          <label class="ski1" for="skil">Skills:</label><br />
+          <textarea id="skil" placeholder="Enter your Skills" class="educ-input" rows="4" required></textarea>
+        </div>
+        <button type="submit">Generate Resume</button>
+      </form>z
+
+
+                    <!-- generated cv -->
+      <div class="generated" id="generatedResume">
+        <!-- <div class="image"></div> -->
+      </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

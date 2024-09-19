@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 2400px;
+    background-color: black;
+}
+.heading{
+    height: 40px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    background-color: black;
+    box-shadow: 10px 10px 5px 2px darkcyan;
+
+}
+.form-ele{
+    height: 1400px;
+    width: 50%;
+    margin-left: 320px;
+    margin-top: 30px;
+    background-color: white;
+    border: 2px solid darkcyan;
+    border-radius: 15px;
+    box-shadow: 10px 20px 20px 10px darkcyan;
+}
+.per-sec{
+    height: 400px;
+    width: 500px;
+    align-items: center;
+    padding: 20px 20px;
+    margin: 50px;
+    border-radius: 15px;
+    box-shadow:  5px 5px 5px black;
+    border: 3px solid darkcyan;
+}
+.head-per{
+    text-align: center;
+}
+
+/* input and label  */
+.nam{
+    font-size: 25px;
+}
+.nam-input{
+    height: 30px;
+    width: 500px;
+    border-radius: 15px;
+    border: 2px solid darkcyan;
+    box-shadow:  5px 5px 5px black;
+}
+
+.ema{
+    font-size: 25px;
+}
+.ema-input{
+    height: 30px;
+    width: 500px;
+    border-radius: 15px;
+    border: 2px solid darkcyan;
+    box-shadow:  5px 5px 5px black;
+}
+
+.con{
+    font-size: 25px;
+}
+.con-input{
+    height: 30px;
+    width: 500px;
+    border-radius: 15px;
+    border: 2px solid darkcyan;
+    box-shadow:  5px 5px 5px black;
+}
+.lin{
+    font-size: 25px;
+}
+.lin-input{
+    height: 30px;
+    width: 500px;
+    border-radius: 15px;
+    border: 2px solid darkcyan;
+    box-shadow:  5px 5px 5px black;
+}
+/* education section  */
+.sec{
+    height: 150px;
+    width: 500px;
+    align-items: center;
+    padding: 20px 20px;
+    margin: 50px;
+    border-radius: 15px;
+    box-shadow:  5px 5px 5px black;
+    border: 3px solid darkcyan;
+}
+.educ {
+    font-size: 25px;
+}
+.educ-input{
+    height: 90px;
+    width: 500px;
+    border-radius: 15px;
+    border: 2px solid darkcyan;
+    box-shadow:  5px 5px 5px black;
+}
+.exp1{
+    font-size: 25px;
+}
+.ski1{
+    font-size: 25px;
+}
+button{
+    height: 40px;
+    width: 300px;
+    font-size: 30px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    color: white;
+    background-color: black;
+    box-shadow:  5px 5px 5px darkcyan;
+}
+button:hover{
+    color:white;
+    background-color: darkcyan;
+    box-shadow:  5px 5px 5px black;
+}
+.generated{
+    background-color: white;
+    height: 700px;
+    width: 650px;
+    border: 5px solid white;
+    margin-left: 330px;
+    margin-top: 80px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px 12px  darkcyan;
+}
+.resume-title{
+    text-align: center;
+    font-size: 40px;
+    color: darkcyan;
+}
+.display-personal{
+    font-size: 30px;
+    color: darkcyan;
+    background-color: black;
+    height: 40px;
+    box-shadow:  5px 5px 5px black;
+    border-radius: 9px;
+}
+.display-name{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.display-email{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.display-contact{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.display-education{
+    font-size: 30px;
+    color: darkcyan;
+    background-color: black;
+    height: 40px;
+    border-radius: 9px;
+    box-shadow:  5px 5px 5px black;
+}
+.display-edu{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.display-experience{
+    font-size: 30px;
+    color: darkcyan;
+    background-color: black;
+    height: 40px;
+    border-radius: 9px;
+    box-shadow:  5px 5px 5px black;
+}
+.display-exp{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.display-skill{
+    font-size: 30px;
+    color: darkcyan;
+    background-color: black;
+    height: 40px;
+    border-radius: 9px;
+    box-shadow:  5px 5px 5px black;
+}
+.display-ski{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+/* Small Devices (Phones, less than 600px) */
+@media only screen and (max-width: 600px) {
+    .form-ele {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .heading {
+        font-size: 30px;
+        padding: 15px;
+    }
+    .nam-input, .ema-input, .con-input, .ima-input, .lin-input, .educ-input {
+        width: 250px;
+    }
+     .per-sec {
+        width: 330px;
+        height:500px ;
+        margin: 10px;
+    }
+    .sec{
+        width: 330px;
+        height:200px ;
+        margin: 10px;
+    }
+    button {
+        width: 100%;
+        margin-left: 0;
+    }
+    .generated {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .image-gene {
+        width: 150px;
+        height: 150px;
+    }
+    .resume-title {
+        font-size: 30px;
+    }
+}
+
+/* Medium Devices (Tablets, between 600px and 1024px) */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .form-ele {
+        width: 90%;
+        margin-left: 12.5%;
+    }
+    .heading {
+        font-size: 40px;
+        padding: 20px;
+    }
+    .nam-input, .ema-input, .con-input, .ima-input, .lin-input, .educ-input {
+        width: 80%;
+    }
+    .sec, .per-sec {
+        width: 80%;
+        margin: 20px;
+    }
+    button {
+        width: 50%;
+        margin-left: 25%;
+    }
+    .generated {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .image-gene {
+        width: 175px;
+        height: 175px;
+    }
+    .resume-title {
+        font-size: 35px;
+    }
+}
+
+        
